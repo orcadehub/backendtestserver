@@ -4,9 +4,7 @@ const app = express();
 app.use(express.json());
 app.use(TestRoutes);
 
-app.get("/", (req, res) => {
-  res.send("My Api is Working!");
-});
+
 
 users = [
   { id: 1, name: "Rahul" },
