@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get("/", (req, res) => { 
-  console.log("Backend Working Fine")
+  res.send("Backend Working Fine")
 })
 
 app.listen(3003, () => {
